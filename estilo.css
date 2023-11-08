@@ -1,0 +1,25 @@
+/*muda a corzinha do fundo*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background:linear-gradient( 45deg, blue 0%, purple 100%);
+    
+}
+/*configura a borda, fundo do relogio e a sombra da "box"*/
+.relogio {
+    background:linear-gradient( 90deg, rgb(248, 40, 40) 0%, rgb(238, 139, 27) 100%);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    border: 5px solid rgba(224, 210, 10, 0.562);
+   
+}
+/*configura o tamanho dos números e centraliza a "box"*/
+.time {
+    font-size: 3rem;
+    text-align: center;
+}
+       
